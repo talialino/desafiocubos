@@ -1,0 +1,10 @@
+{
+    "env" : 
+    {
+    "MYSQL_USER":"root",
+    "MYSQL_PASSWORD":"",
+    "MYSQL_DATABASE":"fila",
+    "MYSQL_HOST":"localhost",
+    "MYSQL_PORT":3306
+    }
+}

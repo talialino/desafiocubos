@@ -1,0 +1,74 @@
+ Exemplo de requisição de criação de usuário;
+
+Endpoint: localhost:3000/usuarios/createUser
+
+Método: POST 
+
+body{
+    "nome": "Laura",
+    "email": "laura@gmail.com",
+    "genero": "Femenino"
+}
+
+------------------------------------------------------------
+ Exemplo de requisi��o de adi��o � fila;
+
+
+Endpoint:http://localhost:3000/usuarios/addToLine
+
+M�todo: PATCH
+
+body{
+    "genero": "Masculino",
+    "email": "vitora@gmail.com",
+    "nome": "Vitor",
+    "id": 1
+    
+}
+
+-----------------------------------------------------------
+
+ Exemplo de requisi��o de ver fila;
+
+Endpoint: http://localhost:3000/usuarios/showLine
+
+M�todo: GET
+
+body {}
+
+-----------------------------------------------------------
+
+ Exemplo de requisi��o de retirar primeiro da fila;
+
+Endpoint: http://localhost:3000/usuarios/popLine
+
+M�todo: DELETE
+
+body{
+    "id": 1    
+}
+
+------------------------------------------------------------
+
+ Exemplo de requisi��o de filtrar fila;
+
+Endpoint: http://localhost:3000/usuarios/filterLine
+
+M�todo: GET
+
+body{
+    "genero": "Femenino"
+}
+
+------------------------------------------------------------
+
+ Exemplo de requisi��o de buscar usu�rio na fila.
+
+
+Endpoint: http://localhost:3000/usuarios/findPosition
+
+M�todo: GET
+
+body{
+    "email": "laura@gmail.com"
+}
