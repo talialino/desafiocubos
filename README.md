@@ -1,4 +1,0 @@
-echo "# desafiocubos" 
-"# desafiocubos" 
-"# desafiocubos" 
-########################
